@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<hr class="header-divider"></hr>
+<body>
+    <header>
+        <div class="logo">Thrisha's Midterm Portfolio</div>
+    </header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About </a>
+    <a href="services.html">Services</a>
+    <a href="media.html">Media</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<main>
+    <div class="card-container">
+    <div class="images">
+    <img src="photo.jpg"style="border-radius: 50%; width: 150px; height: 150px;">
+    </div>
+    <h1>Contact Details</h1>
+        <form action="#" method="post">
+  <fieldset>
+    <legend>Contact Me</legend>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required minlength="2">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="topic">Topic</label>
+    <select id="topic" name="topic" required>
+      <option value="">-- Choose --</option>
+      <option value="general">General</option>
+      <option value="collab">Collaboration</option>
+    </select>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" required minlength="10"></textarea>
+
+    <button type="submit">Send</button>
+  </fieldset>
+</form>
+
+    </div>
+
+</main>
+</body>
+</html>
